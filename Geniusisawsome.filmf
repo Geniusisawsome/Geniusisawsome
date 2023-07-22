@@ -1,0 +1,94 @@
+{
+  "Version": "3.0",
+  "ProjectDisplayName": "Geniusisawsome",
+  "ProjectName": "Project_2022_08_31_11_06_10",
+  "ProjectToken": null,
+  "ProjectPath": null,
+  "ProjectFilePath": "C:\\Users\\STUDENT\\Videos\\FilmForth\\Projects\\Project_2022_08_31_11_06_10.filmf",
+  "ProjectFileToken": "{932CA201-E1E7-4250-BABE-A72986DE4073}",
+  "CreatedDate": "20220831T110611Z",
+  "ModifiedDate": "20220831T111846Z",
+  "ClipsFilter": "None",
+  "ClipsMuteFlag": false,
+  "Opening": {
+    "TransitionType": "None",
+    "Duration": 1.0
+  },
+  "Ending": {
+    "TransitionType": "None",
+    "Duration": 1.0
+  },
+  "Clips": [
+    {
+      "FilePath": "C:\\Users\\STUDENT\\Videos\\Captures\\New tab and 1 more page - Tumi Adewuyi - Microsoft​ Edge 2022-08-31 11-01-37.mp4",
+      "FileToken": "{5891159B-5D87-44A4-AB4E-350063C14D3C}",
+      "TrimStartTime": "00:00:00",
+      "TrimEndTime": "00:00:00",
+      "ImageClipDuration": "00:03:38.2655333",
+      "Volume": 1.0,
+      "MuteFlag": false,
+      "FadeInSeconds": 0.0,
+      "FadeOutSeconds": 0.0,
+      "Rotate": 0.0,
+      "Flip": 0,
+      "Filter": "None",
+      "Speed": 1.0,
+      "Color": null,
+      "Intro": null,
+      "Crop": null,
+      "CropMoveTo": null,
+      "Transform": {
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "ScaleX": 1.0,
+        "ScaleY": 1.0,
+        "Rotate": 0.0
+      }
+    }
+  ],
+  "PicInPics": [],
+  "Transitions": [
+    {
+      "TransitionType": "None",
+      "Duration": 1.0
+    }
+  ],
+  "AudioTracks": [
+    {
+      "Music": {
+        "Token": "{324E74D9-CCEC-4EFE-8F43-929C5EED84A7}",
+        "Name": "Unity",
+        "Path": "C:\\Users\\STUDENT\\Desktop\\Project Genius\\Unity.m4a",
+        "AudioType": 0,
+        "Duration": 229.01899999999998
+      },
+      "TrackID": "3503a6e7-4d70-4752-8eb2-90a90e1daf3e",
+      "Speed": "4",
+      "VoiceChanger": null,
+      "SpeedMusic": null,
+      "Track": {
+        "Delay": "00:00:00",
+        "TrimTimeFromStart": "00:00:00",
+        "TrimTimeFromEnd": "00:00:03.9743241",
+        "OriginalDuration": "00:03:49.0190000",
+        "Volumn": 1.0,
+        "IsQuickMuted": 0
+      },
+      "Effect": {
+        "FadeInSeconds": 0.0,
+        "FadeOutSeconds": 0.0
+      }
+    }
+  ],
+  "TextTracks": [],
+  "SubtitleTrack": null,
+  "ProjectSetting": {
+    "TransitionSetting": {
+      "TransitionType": "None",
+      "Duration": 1.0
+    },
+    "ImageDurationSetting": "00:00:03",
+    "AspectRatioNumerator": 16,
+    "AspectRatioDenominator": 9
+  }
+}
