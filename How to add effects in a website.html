@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geniusisawsome</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    h1{
+        text-align: center;
+        font-size: 100px;
+        text-shadow: 3px 3px 3px red, 4px 4px 4px gold, 5px 5px 5px green, 6px 6px 6px orange;
+    }
+    h2{
+        text-align: center;
+
+    }
+    .Tumi{
+        float: right;
+    }
+</style>
+    <body id="body" style="opacity: 0;">
+        <br>
+        <h1 style="color: green">Geniusisawsome</h1>
+        <b>
+            Dab
+        </b>
+        <p>
+            <h2>Get ready for awesomeness</h2>
+            <h2><a href="index.html">Click the link to continue</a></h2>
+            <h3 class="Tumi">Watch a random video</h2>
+                <h3 class="Tumi"><a href="./How to play video in a website.html">Click this</a></h3>
+        </p>
+    
+        <script type="text/javascript">
+            var opacity = 0;
+            var intervalID = 0;
+            window.onload = fadeIn;
+            
+            function fadeIn() {
+                setInterval(show, 200);
+            }
+            
+            function show() {
+                var body = document.getElementById("body");
+                opacity = Number(window.getComputedStyle(body)
+                                .getPropertyValue("opacity"));
+                if (opacity < 1) {
+                    opacity = opacity + 0.1;
+                    body.style.opacity = opacity
+                } else {
+                    clearInterval(intervalID);
+                }
+            }
+        </script>
+    </body>
+    
+</html>
